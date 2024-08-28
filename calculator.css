@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    /* text-align: center; */
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    /* width: 100vh; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #7167e2, #FFC7ED);
+}
+.container{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 15px;
+    height: 60vh;
+    width: 50vh;
+    background:transparent;
+    box-shadow: 0px 5px 15px rgba(32, 41, 58, 0.5);
+
+}
+.container input{
+    width: 280px;
+    padding: 25px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    margin-bottom: 50px;
+    background: transparent;
+    box-shadow: 0px 5px 15px rgba(84, 84, 84, 0.5);
+    font-size: 40px;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+}
+button{
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    background: transparent;
+    font-size: 20px;
+    box-shadow: 0px 5px 15px rgba(84, 84, 84, 0.5);
+    cursor: pointer;
+    
+
+}
+button:active{
+    box-shadow: 0px 5px 15px rgba(84, 84, 84, 1);
+
+}
+.equalBTN{
+    background-color: orangered;
+}
+.operator{
+    color: navy;
+}
